@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C20A6C51ADA8CB10008AE01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C20A6C41ADA8CB10008AE01 /* AppDelegate.swift */; };
+		3C20A6C81ADA8CB10008AE01 /* WFAreaPicker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3C20A6C61ADA8CB10008AE01 /* WFAreaPicker.xcdatamodeld */; };
+		3C20A6CA1ADA8CB10008AE01 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C20A6C91ADA8CB10008AE01 /* ViewController.swift */; };
+		3C20A6CD1ADA8CB10008AE01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C20A6CB1ADA8CB10008AE01 /* Main.storyboard */; };
+		3C20A6CF1ADA8CB10008AE01 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C20A6CE1ADA8CB10008AE01 /* Images.xcassets */; };
+		3C20A6D21ADA8CB10008AE01 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C20A6D01ADA8CB10008AE01 /* LaunchScreen.xib */; };
+		3C20A6DE1ADA8CB10008AE01 /* WFAreaPickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C20A6DD1ADA8CB10008AE01 /* WFAreaPickerTests.swift */; };
+		3C20A6EA1ADA9EEC0008AE01 /* WFAreaPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C20A6E91ADA9EEC0008AE01 /* WFAreaPickerView.swift */; };
+		3C7FB7DE1ADAB15B0027E84C /* area.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3C7FB7DC1ADAB15B0027E84C /* area.plist */; };
+		3C7FB7DF1ADAB15B0027E84C /* city.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3C7FB7DD1ADAB15B0027E84C /* city.plist */; };
+		3C89B4D81ADBCEC4003983AD /* area-data.json in Resources */ = {isa = PBXBuildFile; fileRef = 3C89B4D71ADBCEC4003983AD /* area-data.json */; };
+		3CCBD1901ADC2214009B2AF2 /* area-data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3CCBD18F1ADC2214009B2AF2 /* area-data.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C20A6D81ADA8CB10008AE01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C20A6B71ADA8CB10008AE01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C20A6BE1ADA8CB10008AE01;
+			remoteInfo = WFAreaPicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C20A6BF1ADA8CB10008AE01 /* WFAreaPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WFAreaPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C20A6C31ADA8CB10008AE01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C20A6C41ADA8CB10008AE01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3C20A6C71ADA8CB10008AE01 /* WFAreaPicker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WFAreaPicker.xcdatamodel; sourceTree = "<group>"; };
+		3C20A6C91ADA8CB10008AE01 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3C20A6CC1ADA8CB10008AE01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C20A6CE1ADA8CB10008AE01 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3C20A6D11ADA8CB10008AE01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3C20A6D71ADA8CB10008AE01 /* WFAreaPickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WFAreaPickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C20A6DC1ADA8CB10008AE01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C20A6DD1ADA8CB10008AE01 /* WFAreaPickerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WFAreaPickerTests.swift; sourceTree = "<group>"; };
+		3C20A6E91ADA9EEC0008AE01 /* WFAreaPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WFAreaPickerView.swift; path = WFAreaPickerView/WFAreaPickerView.swift; sourceTree = "<group>"; };
+		3C7FB7DC1ADAB15B0027E84C /* area.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = area.plist; path = WFAreaPickerView/area.plist; sourceTree = "<group>"; };
+		3C7FB7DD1ADAB15B0027E84C /* city.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = city.plist; path = WFAreaPickerView/city.plist; sourceTree = "<group>"; };
+		3C89B4D71ADBCEC4003983AD /* area-data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "area-data.json"; sourceTree = "<group>"; };
+		3CCBD18F1ADC2214009B2AF2 /* area-data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "area-data.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C20A6BC1ADA8CB10008AE01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C20A6D41ADA8CB10008AE01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C20A6B61ADA8CB10008AE01 = {
+			isa = PBXGroup;
+			children = (
+				3C20A6C11ADA8CB10008AE01 /* WFAreaPicker */,
+				3C20A6DA1ADA8CB10008AE01 /* WFAreaPickerTests */,
+				3C20A6C01ADA8CB10008AE01 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C20A6C01ADA8CB10008AE01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C20A6BF1ADA8CB10008AE01 /* WFAreaPicker.app */,
+				3C20A6D71ADA8CB10008AE01 /* WFAreaPickerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C20A6C11ADA8CB10008AE01 /* WFAreaPicker */ = {
+			isa = PBXGroup;
+			children = (
+				3C20A6EB1ADA9F0D0008AE01 /* WFAreaPickerView */,
+				3C20A6C41ADA8CB10008AE01 /* AppDelegate.swift */,
+				3C20A6C91ADA8CB10008AE01 /* ViewController.swift */,
+				3C20A6CB1ADA8CB10008AE01 /* Main.storyboard */,
+				3C20A6CE1ADA8CB10008AE01 /* Images.xcassets */,
+				3C20A6D01ADA8CB10008AE01 /* LaunchScreen.xib */,
+				3C20A6C61ADA8CB10008AE01 /* WFAreaPicker.xcdatamodeld */,
+				3C20A6C21ADA8CB10008AE01 /* Supporting Files */,
+			);
+			path = WFAreaPicker;
+			sourceTree = "<group>";
+		};
+		3C20A6C21ADA8CB10008AE01 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C20A6C31ADA8CB10008AE01 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3C20A6DA1ADA8CB10008AE01 /* WFAreaPickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				3C20A6DD1ADA8CB10008AE01 /* WFAreaPickerTests.swift */,
+				3C20A6DB1ADA8CB10008AE01 /* Supporting Files */,
+			);
+			path = WFAreaPickerTests;
+			sourceTree = "<group>";
+		};
+		3C20A6DB1ADA8CB10008AE01 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C20A6DC1ADA8CB10008AE01 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3C20A6EB1ADA9F0D0008AE01 /* WFAreaPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				3CCBD18F1ADC2214009B2AF2 /* area-data.plist */,
+				3C89B4D71ADBCEC4003983AD /* area-data.json */,
+				3C7FB7DC1ADAB15B0027E84C /* area.plist */,
+				3C7FB7DD1ADAB15B0027E84C /* city.plist */,
+				3C20A6E91ADA9EEC0008AE01 /* WFAreaPickerView.swift */,
+			);
+			name = WFAreaPickerView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C20A6BE1ADA8CB10008AE01 /* WFAreaPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C20A6E11ADA8CB10008AE01 /* Build configuration list for PBXNativeTarget "WFAreaPicker" */;
+			buildPhases = (
+				3C20A6BB1ADA8CB10008AE01 /* Sources */,
+				3C20A6BC1ADA8CB10008AE01 /* Frameworks */,
+				3C20A6BD1ADA8CB10008AE01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WFAreaPicker;
+			productName = WFAreaPicker;
+			productReference = 3C20A6BF1ADA8CB10008AE01 /* WFAreaPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C20A6D61ADA8CB10008AE01 /* WFAreaPickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C20A6E41ADA8CB10008AE01 /* Build configuration list for PBXNativeTarget "WFAreaPickerTests" */;
+			buildPhases = (
+				3C20A6D31ADA8CB10008AE01 /* Sources */,
+				3C20A6D41ADA8CB10008AE01 /* Frameworks */,
+				3C20A6D51ADA8CB10008AE01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C20A6D91ADA8CB10008AE01 /* PBXTargetDependency */,
+			);
+			name = WFAreaPickerTests;
+			productName = WFAreaPickerTests;
+			productReference = 3C20A6D71ADA8CB10008AE01 /* WFAreaPickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C20A6B71ADA8CB10008AE01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = happi;
+				TargetAttributes = {
+					3C20A6BE1ADA8CB10008AE01 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					3C20A6D61ADA8CB10008AE01 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 3C20A6BE1ADA8CB10008AE01;
+					};
+				};
+			};
+			buildConfigurationList = 3C20A6BA1ADA8CB10008AE01 /* Build configuration list for PBXProject "WFAreaPicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C20A6B61ADA8CB10008AE01;
+			productRefGroup = 3C20A6C01ADA8CB10008AE01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C20A6BE1ADA8CB10008AE01 /* WFAreaPicker */,
+				3C20A6D61ADA8CB10008AE01 /* WFAreaPickerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C20A6BD1ADA8CB10008AE01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C20A6CD1ADA8CB10008AE01 /* Main.storyboard in Resources */,
+				3C7FB7DE1ADAB15B0027E84C /* area.plist in Resources */,
+				3CCBD1901ADC2214009B2AF2 /* area-data.plist in Resources */,
+				3C89B4D81ADBCEC4003983AD /* area-data.json in Resources */,
+				3C7FB7DF1ADAB15B0027E84C /* city.plist in Resources */,
+				3C20A6D21ADA8CB10008AE01 /* LaunchScreen.xib in Resources */,
+				3C20A6CF1ADA8CB10008AE01 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C20A6D51ADA8CB10008AE01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C20A6BB1ADA8CB10008AE01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C20A6EA1ADA9EEC0008AE01 /* WFAreaPickerView.swift in Sources */,
+				3C20A6CA1ADA8CB10008AE01 /* ViewController.swift in Sources */,
+				3C20A6C51ADA8CB10008AE01 /* AppDelegate.swift in Sources */,
+				3C20A6C81ADA8CB10008AE01 /* WFAreaPicker.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C20A6D31ADA8CB10008AE01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C20A6DE1ADA8CB10008AE01 /* WFAreaPickerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C20A6D91ADA8CB10008AE01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C20A6BE1ADA8CB10008AE01 /* WFAreaPicker */;
+			targetProxy = 3C20A6D81ADA8CB10008AE01 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3C20A6CB1ADA8CB10008AE01 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C20A6CC1ADA8CB10008AE01 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3C20A6D01ADA8CB10008AE01 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C20A6D11ADA8CB10008AE01 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C20A6DF1ADA8CB10008AE01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3C20A6E01ADA8CB10008AE01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C20A6E21ADA8CB10008AE01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = WFAreaPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3C20A6E31ADA8CB10008AE01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = WFAreaPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+			};
+			name = Release;
+		};
+		3C20A6E51ADA8CB10008AE01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WFAreaPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WFAreaPicker.app/WFAreaPicker";
+			};
+			name = Debug;
+		};
+		3C20A6E61ADA8CB10008AE01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WFAreaPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WFAreaPicker.app/WFAreaPicker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C20A6BA1ADA8CB10008AE01 /* Build configuration list for PBXProject "WFAreaPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C20A6DF1ADA8CB10008AE01 /* Debug */,
+				3C20A6E01ADA8CB10008AE01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C20A6E11ADA8CB10008AE01 /* Build configuration list for PBXNativeTarget "WFAreaPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C20A6E21ADA8CB10008AE01 /* Debug */,
+				3C20A6E31ADA8CB10008AE01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C20A6E41ADA8CB10008AE01 /* Build configuration list for PBXNativeTarget "WFAreaPickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C20A6E51ADA8CB10008AE01 /* Debug */,
+				3C20A6E61ADA8CB10008AE01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3C20A6C61ADA8CB10008AE01 /* WFAreaPicker.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3C20A6C71ADA8CB10008AE01 /* WFAreaPicker.xcdatamodel */,
+			);
+			currentVersion = 3C20A6C71ADA8CB10008AE01 /* WFAreaPicker.xcdatamodel */;
+			path = WFAreaPicker.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3C20A6B71ADA8CB10008AE01 /* Project object */;
+}
